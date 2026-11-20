@@ -7,9 +7,9 @@ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 'Plus Jakarta 
 .side{background:var(--side);color:#cfe3ea;padding:22px 16px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}
 .brand{display:flex;gap:12px;align-items:center;padding:0 8px 24px}
 .brand b{display:block;color:#fff;font-size:18px;letter-spacing:-.2px}.brand small{color:#7fa3b1;font-size:12px}
-.mark{width:36px;height:36px;border-radius:10px;background:var(--brand);position:relative;flex:none}
-.mark:before,.mark:after{content:"";position:absolute;background:#fff;border-radius:2px;left:50%;top:50%;transform:translate(-50%,-50%)}
-.mark:before{width:18px;height:6px}.mark:after{width:6px;height:18px}
+.mark{width:36px;height:36px;border-radius:50%;background:conic-gradient(from -40deg,#f6c445 0 118deg,#e94f45 118deg 238deg,#39a96b 238deg);position:relative;flex:none;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.mark:before,.mark:after{content:"";position:absolute;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.mark:before{width:17px;height:17px;background:#fff}.mark:after{width:11px;height:11px;background:#1685d1}
 .nav{display:grid;gap:4px}
 .nav a{color:#b8d0d9;text-decoration:none;padding:11px 14px;border-radius:10px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
 .nav a:hover{background:rgba(255,255,255,.06)}
